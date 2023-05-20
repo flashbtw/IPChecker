@@ -1,0 +1,11 @@
+name: IPChecker
+version: '1.0.0'
+main: de.flashyboi.minecraft.gammellounge.ipchecker.IPChecker
+api-version: 1.19
+authors: [ flash_btw, Dark_Templars ]
+description: Checks if a joining player has the same IP as an already joined Player.
+website: https://flash-codes.de
+
+permissions:
+  IPChecker.exclude:
+    description: Excludes Player from IP Check and passes them through.
